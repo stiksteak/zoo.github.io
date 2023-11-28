@@ -1,0 +1,74 @@
+/*
+Author: Darren Lowery
+Date: 11/13/2023
+File Name: styles.css
+*/
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+	background-color: #495F41;
+}
+
+av {
+	padding: 1%;
+	margin-bottom: 1%
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav li {
+	font-size: 1.5em;
+	font-family: 'Kanit', sans-serif;
+}
+
+nav li:first-child {
+	border-top: none;
+}
+
+nav li a {
+    display: block;
+    color: #9FAF90;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/* styles for main content */
+main {
+    background-color: #9FAF90;
+    padding: 2%;
+    font-size: 1.15em;
+	font-family: 'Raleway', sans-serif;
+}
+
+.hours {
+	margin-left: 10%
+}
+
+.round {
+	border-radius: 8px;
+}
+
+.external-link {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
